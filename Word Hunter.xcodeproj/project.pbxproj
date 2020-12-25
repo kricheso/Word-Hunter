@@ -8,22 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		85917D192595576900E665BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85917D182595576900E665BB /* AppDelegate.swift */; };
-		85917D1B2595576900E665BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85917D1A2595576900E665BB /* SceneDelegate.swift */; };
-		85917D1D2595576900E665BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85917D1C2595576900E665BB /* ViewController.swift */; };
 		85917D202595576900E665BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85917D1E2595576900E665BB /* Main.storyboard */; };
 		85917D222595576900E665BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85917D212595576900E665BB /* Assets.xcassets */; };
 		85917D252595576900E665BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85917D232595576900E665BB /* LaunchScreen.storyboard */; };
+		85917D322595598B00E665BB /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85917D312595598B00E665BB /* MenuVC.swift */; };
+		85917D3625955A1300E665BB /* BorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85917D3525955A1300E665BB /* BorderedView.swift */; };
+		85917D3C25955C2E00E665BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85917D3B25955C2E00E665BB /* SceneDelegate.swift */; };
+		85917D4125955D9700E665BB /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85917D4025955D9700E665BB /* BorderedButton.swift */; };
+		85FD302A25956E0A00CB035C /* HomeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85FD302925956E0A00CB035C /* HomeButton.png */; };
+		85FD302D25956E6500CB035C /* BoggleTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD302C25956E6500CB035C /* BoggleTile.swift */; };
+		85FD303025956E8800CB035C /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD302F25956E8800CB035C /* Coordinate.swift */; };
+		85FD303425956EE800CB035C /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD303325956EE800CB035C /* Globals.swift */; };
+		85FD303825956F7000CB035C /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD303725956F7000CB035C /* Trie.swift */; };
+		85FD303D25956F8800CB035C /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD303C25956F8800CB035C /* Node.swift */; };
+		85FD30412595732500CB035C /* BoggleGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD30402595732500CB035C /* BoggleGrid.swift */; };
+		85FD30492595986B00CB035C /* FoundWordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD30482595986B00CB035C /* FoundWordCell.swift */; };
+		85FD304E259599E800CB035C /* BoggleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD304D259599E800CB035C /* BoggleVC.swift */; };
+		85FD305225959AB200CB035C /* FullWordList.json in Resources */ = {isa = PBXBuildFile; fileRef = 85FD305125959AB200CB035C /* FullWordList.json */; };
+		85FD305525959AC600CB035C /* MenuMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85FD305425959AC600CB035C /* MenuMusic.mp3 */; };
+		85FD305825959ADB00CB035C /* selectedTile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85FD305725959ADB00CB035C /* selectedTile.mp3 */; };
+		85FD305B25959ADF00CB035C /* selectedTile2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85FD305A25959ADF00CB035C /* selectedTile2.mp3 */; };
+		85FD305E25959AF000CB035C /* found.wav in Resources */ = {isa = PBXBuildFile; fileRef = 85FD305D25959AF000CB035C /* found.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		85917D152595576900E665BB /* Word Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85917D182595576900E665BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		85917D1A2595576900E665BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		85917D1C2595576900E665BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		85917D1F2595576900E665BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85917D212595576900E665BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85917D242595576900E665BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85917D262595576900E665BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85917D312595598B00E665BB /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		85917D3525955A1300E665BB /* BorderedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedView.swift; sourceTree = "<group>"; };
+		85917D3B25955C2E00E665BB /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../../.Trash/SceneDelegate.swift; sourceTree = "<group>"; };
+		85917D4025955D9700E665BB /* BorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
+		85FD302925956E0A00CB035C /* HomeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HomeButton.png; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/College/Final Apps/Boggle Project/HomeButton.png"; sourceTree = "<group>"; };
+		85FD302C25956E6500CB035C /* BoggleTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoggleTile.swift; sourceTree = "<group>"; };
+		85FD302F25956E8800CB035C /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		85FD303325956EE800CB035C /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		85FD303725956F7000CB035C /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		85FD303C25956F8800CB035C /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		85FD30402595732500CB035C /* BoggleGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoggleGrid.swift; sourceTree = "<group>"; };
+		85FD30482595986B00CB035C /* FoundWordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundWordCell.swift; sourceTree = "<group>"; };
+		85FD304D259599E800CB035C /* BoggleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoggleVC.swift; sourceTree = "<group>"; };
+		85FD305125959AB200CB035C /* FullWordList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = FullWordList.json; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/College/Final Apps/Boggle Project/Boggle Solve/Boggle Solve/FullWordList.json"; sourceTree = "<group>"; };
+		85FD305425959AC600CB035C /* MenuMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = MenuMusic.mp3; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/College/Final Apps/Boggle Project/Boggle Solve/Boggle Solve/MenuMusic.mp3"; sourceTree = "<group>"; };
+		85FD305725959ADB00CB035C /* selectedTile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = selectedTile.mp3; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/College/Final Apps/Boggle Project/Boggle Solve/Boggle Solve/selectedTile.mp3"; sourceTree = "<group>"; };
+		85FD305A25959ADF00CB035C /* selectedTile2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = selectedTile2.mp3; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/College/Final Apps/Boggle Project/Boggle Solve/Boggle Solve/selectedTile2.mp3"; sourceTree = "<group>"; };
+		85FD305D25959AF000CB035C /* found.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = found.wav; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/College/Final Apps/Boggle Project/Boggle Solve/Boggle Solve/found.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,8 +72,8 @@
 		85917D0C2595576900E665BB = {
 			isa = PBXGroup;
 			children = (
-				85917D172595576900E665BB /* Word Hunter */,
 				85917D162595576900E665BB /* Products */,
+				85917D172595576900E665BB /* Word Hunter */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +89,28 @@
 			isa = PBXGroup;
 			children = (
 				85917D182595576900E665BB /* AppDelegate.swift */,
-				85917D1A2595576900E665BB /* SceneDelegate.swift */,
-				85917D1C2595576900E665BB /* ViewController.swift */,
-				85917D1E2595576900E665BB /* Main.storyboard */,
 				85917D212595576900E665BB /* Assets.xcassets */,
-				85917D232595576900E665BB /* LaunchScreen.storyboard */,
+				85FD30402595732500CB035C /* BoggleGrid.swift */,
+				85FD302C25956E6500CB035C /* BoggleTile.swift */,
+				85FD304D259599E800CB035C /* BoggleVC.swift */,
+				85917D4025955D9700E665BB /* BorderedButton.swift */,
+				85917D3525955A1300E665BB /* BorderedView.swift */,
+				85FD302F25956E8800CB035C /* Coordinate.swift */,
+				85FD305D25959AF000CB035C /* found.wav */,
+				85FD30482595986B00CB035C /* FoundWordCell.swift */,
+				85FD305125959AB200CB035C /* FullWordList.json */,
+				85FD303325956EE800CB035C /* Globals.swift */,
+				85FD302925956E0A00CB035C /* HomeButton.png */,
 				85917D262595576900E665BB /* Info.plist */,
+				85917D232595576900E665BB /* LaunchScreen.storyboard */,
+				85917D1E2595576900E665BB /* Main.storyboard */,
+				85FD305425959AC600CB035C /* MenuMusic.mp3 */,
+				85917D312595598B00E665BB /* MenuVC.swift */,
+				85FD303C25956F8800CB035C /* Node.swift */,
+				85917D3B25955C2E00E665BB /* SceneDelegate.swift */,
+				85FD305725959ADB00CB035C /* selectedTile.mp3 */,
+				85FD305A25959ADF00CB035C /* selectedTile2.mp3 */,
+				85FD303725956F7000CB035C /* Trie.swift */,
 			);
 			path = "Word Hunter";
 			sourceTree = "<group>";
@@ -124,9 +172,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85FD305B25959ADF00CB035C /* selectedTile2.mp3 in Resources */,
+				85FD305225959AB200CB035C /* FullWordList.json in Resources */,
 				85917D252595576900E665BB /* LaunchScreen.storyboard in Resources */,
+				85FD305E25959AF000CB035C /* found.wav in Resources */,
 				85917D222595576900E665BB /* Assets.xcassets in Resources */,
+				85FD302A25956E0A00CB035C /* HomeButton.png in Resources */,
+				85FD305825959ADB00CB035C /* selectedTile.mp3 in Resources */,
 				85917D202595576900E665BB /* Main.storyboard in Resources */,
+				85FD305525959AC600CB035C /* MenuMusic.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +191,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85917D1D2595576900E665BB /* ViewController.swift in Sources */,
+				85917D4125955D9700E665BB /* BorderedButton.swift in Sources */,
+				85FD30412595732500CB035C /* BoggleGrid.swift in Sources */,
 				85917D192595576900E665BB /* AppDelegate.swift in Sources */,
-				85917D1B2595576900E665BB /* SceneDelegate.swift in Sources */,
+				85FD303D25956F8800CB035C /* Node.swift in Sources */,
+				85FD303025956E8800CB035C /* Coordinate.swift in Sources */,
+				85917D322595598B00E665BB /* MenuVC.swift in Sources */,
+				85FD303825956F7000CB035C /* Trie.swift in Sources */,
+				85FD302D25956E6500CB035C /* BoggleTile.swift in Sources */,
+				85917D3625955A1300E665BB /* BorderedView.swift in Sources */,
+				85917D3C25955C2E00E665BB /* SceneDelegate.swift in Sources */,
+				85FD304E259599E800CB035C /* BoggleVC.swift in Sources */,
+				85FD303425956EE800CB035C /* Globals.swift in Sources */,
+				85FD30492595986B00CB035C /* FoundWordCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,7 +351,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SA9EY248Y9;
 				INFOPLIST_FILE = "Word Hunter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,7 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Kousei-Richeson.Word-Hunter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,7 +371,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SA9EY248Y9;
 				INFOPLIST_FILE = "Word Hunter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +381,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Kousei-Richeson.Word-Hunter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
